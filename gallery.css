@@ -33,7 +33,7 @@ html,body {
     
 }
 #gallery {
-    background: #00a2d9;
+    background: gold;
     display: table;
     height: 25%;
     position: relative;
@@ -48,11 +48,14 @@ p:target{
  display: table-cell;
  text-align: center;
  vertical-align: middle;
- color: red;
+ color: black;
 }
 .landing-text h1 {
     font-size: 500%;
     font-weight: 700%;
+}
+.info{
+    font-size: 25px;
 }
 .padding {
     padding: 80px 0;
@@ -76,7 +79,7 @@ p:target{
 img {max-width: 100%;}
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-gap: 1em;
     padding: 3em;
     background: #ccc;

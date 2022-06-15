@@ -22,8 +22,8 @@ html,body {
     content: "";
     width: 75px;
     height: 75px;
-    border: 15px solid white;
-    border-top-color: red;
+    border: 15px solid gray;
+    border-top-color: gold;
     border-radius: 50%;
     animation: loading 0.75s ease infinite;
 }

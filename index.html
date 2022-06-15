@@ -1,13 +1,172 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Year 6 leavers 2022</title>
-</head>
-<body>
-    <h1>Year 6 leavers 2022</h1>
+  <title>Year 6 Leavers 2022</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+      <link href="gallery.css" rel="stylesheet"/>
+  <script>
+      window.addEventListener("load", ()=>{
+          const loader = document.querySelector(".loader");
 
-    <p>Hi</p>
+         loader.classList.add("loader--hidden");
+         loader.addEventListener("transitionend",()=>{
+             document.body.removeChild(loader);
+         });
+
+      });
+      
+  </script>
+  
+</head>
+
+<body>
+<div class="loader"></div>
+<div id="gallery">
+    <div class="landing-text">
+    <h1>Year 6 Leavers 2022</h1>
+      <h2></h2>
+
+    </div>
+</div>
+
+<div class="portfolio">
+    <!--image 1-->
+    <div id="portfolio-row-1" class="portfolio__item">
+        <img src="images/IMG_3277.JPG" alt="Andy Jennings wearing a hat">
+        <div class="portfolio__desc">
+        
+           <a href="#portfolio-item-1" class="button">view large</a>
+        </div>
+    </div>
+<!--image 2-->
+    <div id="portfolio-row-1" class="portfolio__item">
+        <img src="images/IMG_3278.JPG" alt="Andy Jennings wearing a hat">
+        <div class="portfolio__desc">
+            <h3 class="portfolio__title">Edinburgh Castle</h3>
+       <a href="#portfolio-item-2" class="button">view large</a>
+        </div>
+    </div>
+
+ <!--image 3-->
+    <div id="portfolio-row-1" class="portfolio__item">
+    <img src="images/IMG_3280.JPG" alt="Andy Jennings wearing a hat">
+        <div class="portfolio__desc">
+            <h3 class="portfolio__title">Bagpipes player</h3>
+            <a href="#portfolio-item-3" class="button">view large</a>
+        </div>
+    </div>  
+<!--image 4-->
+    <div id="portfolio-row-2" class="portfolio__item">
+        <img src="images/IMG_3281.JPG" alt="Andy Jennings wearing a hat">
+            <div class="portfolio__desc">
+                <h3 class="portfolio__title">Group photo one</h3>
+                <a href="#portfolio-item-4" class="button">view large</a>
+            </div>
+    </div>
+<!--image 5-->
+    <div id="portfolio-row-2" class="portfolio__item">
+        <img src="facebook/facebook pics (46).jpg" alt="Andy Jennings wearing a hat">
+            <div class="portfolio__desc">
+                <h3 class="portfolio__title">Group photo two</h3>
+                <a href="#portfolio-item-5" class="button">view large</a>
+            </div>
+    </div>
+<!--image 6-->
+    <div id="portfolio-row-2" class="portfolio__item">
+        <img src="facebook/facebook pics (47).jpg" alt="Andy Jennings wearing a hat">
+            <div class="portfolio__desc">
+                               <a href="#portfolio-item-6" class="button">view large</a>
+            </div>
+    </div>    
+</div>
+
+<!--The portfolio lightboxes-->
+<div class="portfolio-lightboxes">
+    <!--lightbox 1-->
+    <div id="portfolio-item-1" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-1" class="close"></a>
+            <a href="#portfolio-item-6" class="previous"></a>
+            <a href="#portfolio-item-2"class="next"></a>
+            <img src="facebookfull/facebookfull (21).jpg">
+            <h3 class="portfolio-lightbox__title">Group photo two</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 2-->
+    <div id="portfolio-item-2" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-1" class="close"></a>
+            <a href="#portfolio-item-1" class="previous"></a>
+            <a href="#portfolio-item-3"class="next"></a>
+            <img src="facebook/facebook pics (22).jpg">
+            <h3 class="portfolio-lightbox__title">Group photo three</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 3-->
+    <div id="portfolio-item-3" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-1" class="close"></a>
+            <a href="#portfolio-item-2" class="previous"></a>
+            <a href="#portfolio-item-4"class="next"></a>
+            <img src="facebook/facebook pics (23).jpg">
+            <h3 class="portfolio-lightbox__title">Andy Jennings wearing a tartan hat</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 4-->
+    <div id="portfolio-item-4" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-2" class="close"></a>
+            <a href="#portfolio-item-3" class="previous"></a>
+            <a href="#portfolio-item-5"class="next"></a>
+            <img src="facebook/facebook pics (45).jpg">
+            <h3 class="portfolio-lightbox__title">Andy Jennings wearing a tartan hat</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 5-->
+    <div id="portfolio-item-5" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-2" class="close"></a>
+            <a href="#portfolio-item-4" class="previous"></a>
+            <a href="#portfolio-item-6"class="next"></a>
+            <img src="facebook/facebook pics (46).jpg">
+            <h3 class="portfolio-lightbox__title">Andy Jennings wearing a tartan hat</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 6-->
+    <div id="portfolio-item-6" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-2" class="close"></a>
+            <a href="#portfolio-item-5" class="previous"></a>
+            <a href="#portfolio-item-1"class="next"></a>
+            <img src="facebook/facebook pics (47).jpg">
+            <h3 class="portfolio-lightbox__title">Andy Jennings wearing a tartan hat</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+</div>
+
+  
+
+
+      <div class="back-page">
+          <a href="gallery.html" class="button">Back to Gallery</a>
+      </div>
+    
+
 </body>
 </html>
+
+
+
+
+
+
+

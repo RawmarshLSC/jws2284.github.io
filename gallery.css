@@ -104,13 +104,12 @@ img {max-width: 100%;}
    
     
     .button-small {
-        display: inline-block;
-        font-size: .9rem;
-        text-decoration: none;
-        text-transform: uppercase;
-        border-width: 1px;
-        border-style: solid;
-        padding: .1em .75em;
+        background-color: gray;
+    color: gold;
+    padding: .3rem;
+    border-radius: 20px;
+    text-decoration: none;
+    position: relative;
     }
     .port-desc {
         text-align: center;

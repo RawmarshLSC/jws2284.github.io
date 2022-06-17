@@ -65,11 +65,12 @@ html,body {
 .back-page {
     background-color: gold;
     text-align: center;
+    height: 45px;
 }
 .button{
     background-color: gray;
     color: gold;
-    padding: .3rem;
+    padding: .5rem;
     border-radius: 20px;
     text-decoration: none;
     position: relative;
@@ -106,11 +107,11 @@ img {max-width: 100%;}
     
     .button-small {
         background-color: gray;
-    color: gold;
-    padding: .3rem;
-    border-radius: 20px;
-    text-decoration: none;
-    position: relative;
+        color: gold;
+        padding: .3rem;
+        border-radius: 20px;
+        text-decoration: none;
+        position: relative;
     }
     .port-desc {
         text-align: center;

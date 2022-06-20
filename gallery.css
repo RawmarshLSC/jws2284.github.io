@@ -94,6 +94,7 @@ html,body {
 }
 .active{
     background: yellow;
+    color: gray;
     padding: .3rem;
     width: 200px;
     border-radius: 45px;

@@ -71,8 +71,47 @@ html,body {
 .back-page {
     background-color: gold;
     text-align: center;
-    
 }
+.pagination{
+    margin: 30px 30px 60px;
+    user-select: none;
+}
+.pagination a{
+    color: gold;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 45px;
+
+}
+.page-prev, .page-next{
+    background: gray;
+    padding: .3rem;
+    width: 500px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.active{
+    background: yellow;
+    padding: .3rem;
+    width: 200px;
+    border-radius: 45px;
+}
+.disable{
+    background: lightgrey ;
+}
+
+
+.page-current, .page-dots{
+    background: gray;
+    padding: .3rem;
+    width: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
 .button{
     background-color: gray;
     color: gold;
